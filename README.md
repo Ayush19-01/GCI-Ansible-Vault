@@ -10,8 +10,9 @@ __1) Installation of Ansible on linux(Ubuntu):__
    _You should get the above screen and press enter_
     
     
-  1.2`$ sudo apt update
-    `
+   1.2`$ sudo apt update`
+   
+   Following this update, you can install the Ansible software with:
     
    1.3`$ sudo apt install ansible`
     
@@ -22,7 +23,7 @@ __2) Encrypting the file:__
    #Here i have used a dummy YML format file.
      
    _Command to encrypt:_
-    
+   
   `$ ansible-vault encrypt filename.yml`
         
    ![alt text](https://github.com/Ayush19-01/GCI-Ansible-Vault/blob/master/Screenshot%20from%202019-12-19%2017-49-38.png)
@@ -37,8 +38,8 @@ __2) Encrypting the file:__
 
    __3)Uses of Ansible Vault:__
     
-   Ansible Vault is a feature that allows users to encrypt values and data structures within Ansible 
+   _Ansible Vault is a feature that allows users to encrypt values and data structures within Ansible 
     projects. This provides the ability to secure any sensitive data that is necessary to successfully 
     run Ansible plays but should not be publicly visible, like passwords or private keys. Ansible 
-    automatically decrypts vault-encrypted content at runtime when the key is provided.
+    automatically decrypts vault-encrypted content at runtime when the key is provided._
     
