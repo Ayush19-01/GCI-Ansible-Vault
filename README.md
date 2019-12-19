@@ -1,7 +1,7 @@
 # GCI-Ansible-Vault
 __1) Installation of Ansible on linux(Ubuntu):__
 
-   _#Entering the following commands in the terminal_
+   _Entering the following commands in the terminal_
 
   1.1`$ sudo apt-add-repository ppa:ansible/ansible` 
     
@@ -20,7 +20,7 @@ __1) Installation of Ansible on linux(Ubuntu):__
     
 __2) Encrypting the file:__
  
-   #Here i have used a dummy YML format file.
+   Here i have used a dummy YML format file.
      
    _Command to encrypt:_
    
@@ -35,6 +35,10 @@ __2) Encrypting the file:__
    _I have attached both encrypted and decrypted yml file_
      
    _Sample1.yml is encrypted while sample2.yml is decrypted_
+   
+   _Command to decrypt_
+   
+   `$ ansible-vault decrypt filename.yml`
 
    __3)Uses of Ansible Vault:__
     
